@@ -1,0 +1,7 @@
+bio_data/
+fb15k_data/
+db15k_data/
+*.pkl
+*.pth
+*.pt
+__pycache__/

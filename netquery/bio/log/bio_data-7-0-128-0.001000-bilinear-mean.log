@@ -1,0 +1,271 @@
+2026-06-15 21:34:30,841 - INFO - Iter: 0; ema_loss: 0.052423
+2026-06-15 21:34:31,330 - INFO - Iter: 100; ema_loss: 0.082858
+2026-06-15 21:34:31,817 - INFO - Iter: 200; ema_loss: 0.102206
+2026-06-15 21:34:32,301 - INFO - Iter: 300; ema_loss: 0.107852
+2026-06-15 21:34:32,787 - INFO - Iter: 400; ema_loss: 0.113817
+2026-06-15 21:34:33,272 - INFO - Iter: 500; ema_loss: 0.104978
+2026-06-15 21:34:33,757 - INFO - Iter: 600; ema_loss: 0.101431
+2026-06-15 21:34:34,241 - INFO - Iter: 700; ema_loss: 0.113284
+2026-06-15 21:34:34,724 - INFO - Iter: 800; ema_loss: 0.114558
+2026-06-15 21:34:35,205 - INFO - Iter: 900; ema_loss: 0.104195
+2026-06-15 21:34:35,687 - INFO - Iter: 1000; ema_loss: 0.114227
+2026-06-15 21:34:36,169 - INFO - Iter: 1100; ema_loss: 0.116139
+2026-06-15 21:34:36,649 - INFO - Iter: 1200; ema_loss: 0.116176
+2026-06-15 21:34:37,129 - INFO - Iter: 1300; ema_loss: 0.113609
+2026-06-15 21:34:37,608 - INFO - Iter: 1400; ema_loss: 0.106945
+2026-06-15 21:34:38,089 - INFO - Iter: 1500; ema_loss: 0.107965
+2026-06-15 21:34:38,570 - INFO - Iter: 1600; ema_loss: 0.109777
+2026-06-15 21:34:39,050 - INFO - Iter: 1700; ema_loss: 0.115831
+2026-06-15 21:34:39,530 - INFO - Iter: 1800; ema_loss: 0.113788
+2026-06-15 21:34:40,011 - INFO - Iter: 1900; ema_loss: 0.110285
+2026-06-15 21:34:40,484 - INFO - Iter: 2000; ema_loss: 0.101716
+2026-06-15 21:34:40,971 - INFO - Iter: 2100; ema_loss: 0.107043
+2026-06-15 21:34:41,455 - INFO - Iter: 2200; ema_loss: 0.115605
+2026-06-15 21:34:41,938 - INFO - Iter: 2300; ema_loss: 0.113637
+2026-06-15 21:34:42,418 - INFO - Iter: 2400; ema_loss: 0.109453
+2026-06-15 21:34:42,902 - INFO - Iter: 2500; ema_loss: 0.107784
+2026-06-15 21:34:43,388 - INFO - Iter: 2600; ema_loss: 0.106106
+2026-06-15 21:34:43,869 - INFO - Iter: 2700; ema_loss: 0.107403
+2026-06-15 21:34:44,352 - INFO - Iter: 2800; ema_loss: 0.114676
+2026-06-15 21:34:44,837 - INFO - Iter: 2900; ema_loss: 0.111181
+2026-06-15 21:34:45,312 - INFO - Iter: 3000; ema_loss: 0.108196
+2026-06-15 21:34:45,794 - INFO - Iter: 3100; ema_loss: 0.116212
+2026-06-15 21:34:46,290 - INFO - Iter: 3200; ema_loss: 0.121348
+2026-06-15 21:34:46,770 - INFO - Iter: 3300; ema_loss: 0.109703
+2026-06-15 21:34:47,263 - INFO - Iter: 3400; ema_loss: 0.106921
+2026-06-15 21:34:47,776 - INFO - Iter: 3500; ema_loss: 0.105767
+2026-06-15 21:34:48,294 - INFO - Iter: 3600; ema_loss: 0.117993
+2026-06-15 21:34:48,766 - INFO - Iter: 3700; ema_loss: 0.105803
+2026-06-15 21:34:49,207 - INFO - Iter: 3800; ema_loss: 0.101822
+2026-06-15 21:34:49,611 - INFO - Iter: 3900; ema_loss: 0.105655
+2026-06-15 21:34:50,009 - INFO - Iter: 4000; ema_loss: 0.099632
+2026-06-15 21:34:50,409 - INFO - Iter: 4100; ema_loss: 0.102620
+2026-06-15 21:34:50,818 - INFO - Iter: 4200; ema_loss: 0.120126
+2026-06-15 21:34:51,306 - INFO - Iter: 4300; ema_loss: 0.112694
+2026-06-15 21:34:51,793 - INFO - Iter: 4400; ema_loss: 0.112802
+2026-06-15 21:34:52,283 - INFO - Iter: 4500; ema_loss: 0.113284
+2026-06-15 21:34:52,765 - INFO - Iter: 4600; ema_loss: 0.116367
+2026-06-15 21:34:53,244 - INFO - Iter: 4700; ema_loss: 0.110830
+2026-06-15 21:34:53,717 - INFO - Iter: 4800; ema_loss: 0.111987
+2026-06-15 21:34:54,193 - INFO - Iter: 4900; ema_loss: 0.114582
+2026-06-15 21:34:54,674 - INFO - Iter: 5000; ema_loss: 0.110195
+2026-06-15 21:34:56,175 - INFO - 1-chain val AUC: 0.979484 val perc 98.118549; iteration: 5000
+2026-06-15 21:34:57,025 - INFO - 2-inter val AUC: 0.746228 val perc 71.606557; iteration: 5000
+2026-06-15 21:34:57,849 - INFO - Hard-2-inter val AUC: 0.486042 val perc 45.471258; iteration: 5000
+2026-06-15 21:34:58,479 - INFO - 2-chain val AUC: 0.920288 val perc 88.204545; iteration: 5000
+2026-06-15 21:34:59,502 - INFO - 3-chain val AUC: 0.852799 val perc 85.326733; iteration: 5000
+2026-06-15 21:35:00,767 - INFO - 3-chain_inter val AUC: 0.605203 val perc 60.404040; iteration: 5000
+2026-06-15 21:35:02,016 - INFO - Hard-3-chain_inter val AUC: 0.550317 val perc 54.920219; iteration: 5000
+2026-06-15 21:35:03,263 - INFO - 3-inter_chain val AUC: 0.704506 val perc 69.521277; iteration: 5000
+2026-06-15 21:35:04,520 - INFO - Hard-3-inter_chain val AUC: 0.524418 val perc 53.336095; iteration: 5000
+2026-06-15 21:35:05,903 - INFO - 3-inter val AUC: 0.729840 val perc 75.631579; iteration: 5000
+2026-06-15 21:35:07,276 - INFO - Hard-3-inter val AUC: 0.463874 val perc 51.487017; iteration: 5000
+2026-06-15 21:35:07,750 - INFO - Iter: 5100; ema_loss: 0.104324
+2026-06-15 21:35:08,210 - INFO - Iter: 5200; ema_loss: 0.105558
+2026-06-15 21:35:08,691 - INFO - Iter: 5300; ema_loss: 0.105665
+2026-06-15 21:35:09,178 - INFO - Iter: 5400; ema_loss: 0.117991
+2026-06-15 21:35:09,658 - INFO - Iter: 5500; ema_loss: 0.114996
+2026-06-15 21:35:10,138 - INFO - Iter: 5600; ema_loss: 0.108326
+2026-06-15 21:35:10,619 - INFO - Iter: 5700; ema_loss: 0.115373
+2026-06-15 21:35:11,095 - INFO - Iter: 5800; ema_loss: 0.107172
+2026-06-15 21:35:11,576 - INFO - Iter: 5900; ema_loss: 0.112290
+2026-06-15 21:35:12,056 - INFO - Iter: 6000; ema_loss: 0.110359
+2026-06-15 21:35:12,537 - INFO - Iter: 6100; ema_loss: 0.108266
+2026-06-15 21:35:13,027 - INFO - Iter: 6200; ema_loss: 0.106172
+2026-06-15 21:35:13,461 - INFO - Iter: 6300; ema_loss: 0.105129
+2026-06-15 21:35:13,838 - INFO - Iter: 6400; ema_loss: 0.106372
+2026-06-15 21:35:14,305 - INFO - Iter: 6500; ema_loss: 0.106680
+2026-06-15 21:35:14,784 - INFO - Iter: 6600; ema_loss: 0.101362
+2026-06-15 21:35:15,268 - INFO - Iter: 6700; ema_loss: 0.106079
+2026-06-15 21:35:15,750 - INFO - Iter: 6800; ema_loss: 0.104363
+2026-06-15 21:35:16,233 - INFO - Iter: 6900; ema_loss: 0.103918
+2026-06-15 21:35:16,711 - INFO - Iter: 7000; ema_loss: 0.102591
+2026-06-15 21:35:17,178 - INFO - Iter: 7100; ema_loss: 0.111749
+2026-06-15 21:35:17,625 - INFO - Iter: 7200; ema_loss: 0.117148
+2026-06-15 21:35:18,133 - INFO - Iter: 7300; ema_loss: 0.105370
+2026-06-15 21:35:18,638 - INFO - Iter: 7400; ema_loss: 0.107938
+2026-06-15 21:35:19,128 - INFO - Iter: 7500; ema_loss: 0.108695
+2026-06-15 21:35:19,613 - INFO - Iter: 7600; ema_loss: 0.112972
+2026-06-15 21:35:20,099 - INFO - Iter: 7700; ema_loss: 0.109338
+2026-06-15 21:35:20,590 - INFO - Iter: 7800; ema_loss: 0.115436
+2026-06-15 21:35:21,082 - INFO - Iter: 7900; ema_loss: 0.118024
+2026-06-15 21:35:21,577 - INFO - Iter: 8000; ema_loss: 0.106919
+2026-06-15 21:35:22,054 - INFO - Iter: 8100; ema_loss: 0.110956
+2026-06-15 21:35:22,545 - INFO - Iter: 8200; ema_loss: 0.115728
+2026-06-15 21:35:23,034 - INFO - Iter: 8300; ema_loss: 0.101850
+2026-06-15 21:35:23,514 - INFO - Iter: 8400; ema_loss: 0.107408
+2026-06-15 21:35:23,988 - INFO - Iter: 8500; ema_loss: 0.108073
+2026-06-15 21:35:24,466 - INFO - Iter: 8600; ema_loss: 0.109525
+2026-06-15 21:35:24,949 - INFO - Iter: 8700; ema_loss: 0.113074
+2026-06-15 21:35:25,431 - INFO - Iter: 8800; ema_loss: 0.101423
+2026-06-15 21:35:25,912 - INFO - Iter: 8900; ema_loss: 0.114587
+2026-06-15 21:35:26,395 - INFO - Iter: 9000; ema_loss: 0.115229
+2026-06-15 21:35:26,879 - INFO - Iter: 9100; ema_loss: 0.110888
+2026-06-15 21:35:27,362 - INFO - Iter: 9200; ema_loss: 0.107876
+2026-06-15 21:35:27,842 - INFO - Iter: 9300; ema_loss: 0.103245
+2026-06-15 21:35:28,322 - INFO - Iter: 9400; ema_loss: 0.109834
+2026-06-15 21:35:28,803 - INFO - Iter: 9500; ema_loss: 0.106998
+2026-06-15 21:35:29,284 - INFO - Iter: 9600; ema_loss: 0.108454
+2026-06-15 21:35:29,767 - INFO - Iter: 9700; ema_loss: 0.106423
+2026-06-15 21:35:30,249 - INFO - Iter: 9800; ema_loss: 0.104026
+2026-06-15 21:35:30,732 - INFO - Iter: 9900; ema_loss: 0.101155
+2026-06-15 21:35:31,214 - INFO - Iter: 10000; ema_loss: 0.101397
+2026-06-15 21:35:32,686 - INFO - 1-chain val AUC: 0.979761 val perc 98.133885; iteration: 10000
+2026-06-15 21:35:33,511 - INFO - 2-inter val AUC: 0.743195 val perc 73.336066; iteration: 10000
+2026-06-15 21:35:34,334 - INFO - Hard-2-inter val AUC: 0.480066 val perc 49.124772; iteration: 10000
+2026-06-15 21:35:34,965 - INFO - 2-chain val AUC: 0.922518 val perc 92.693182; iteration: 10000
+2026-06-15 21:35:35,991 - INFO - 3-chain val AUC: 0.850748 val perc 85.544554; iteration: 10000
+2026-06-15 21:35:37,239 - INFO - 3-chain_inter val AUC: 0.607490 val perc 59.525253; iteration: 10000
+2026-06-15 21:35:38,493 - INFO - Hard-3-chain_inter val AUC: 0.553463 val perc 57.948899; iteration: 10000
+2026-06-15 21:35:39,753 - INFO - 3-inter_chain val AUC: 0.699437 val perc 68.946809; iteration: 10000
+2026-06-15 21:35:41,028 - INFO - Hard-3-inter_chain val AUC: 0.513048 val perc 52.951308; iteration: 10000
+2026-06-15 21:35:42,508 - INFO - 3-inter val AUC: 0.737724 val perc 75.473684; iteration: 10000
+2026-06-15 21:35:43,912 - INFO - Hard-3-inter val AUC: 0.465753 val perc 49.543764; iteration: 10000
+2026-06-15 21:35:44,408 - INFO - Iter: 10100; ema_loss: 0.107809
+2026-06-15 21:35:44,904 - INFO - Iter: 10200; ema_loss: 0.103054
+2026-06-15 21:35:45,385 - INFO - Iter: 10300; ema_loss: 0.104763
+2026-06-15 21:35:45,866 - INFO - Iter: 10400; ema_loss: 0.104997
+2026-06-15 21:35:46,356 - INFO - Iter: 10500; ema_loss: 0.103403
+2026-06-15 21:35:46,845 - INFO - Iter: 10600; ema_loss: 0.103886
+2026-06-15 21:35:47,345 - INFO - Iter: 10700; ema_loss: 0.102382
+2026-06-15 21:35:47,796 - INFO - Iter: 10800; ema_loss: 0.106861
+2026-06-15 21:35:48,209 - INFO - Iter: 10900; ema_loss: 0.109659
+2026-06-15 21:35:48,666 - INFO - Iter: 11000; ema_loss: 0.110053
+2026-06-15 21:35:49,148 - INFO - Iter: 11100; ema_loss: 0.103458
+2026-06-15 21:35:49,635 - INFO - Iter: 11200; ema_loss: 0.105047
+2026-06-15 21:35:50,106 - INFO - Iter: 11300; ema_loss: 0.115950
+2026-06-15 21:35:50,588 - INFO - Iter: 11400; ema_loss: 0.111659
+2026-06-15 21:35:51,069 - INFO - Iter: 11500; ema_loss: 0.107529
+2026-06-15 21:35:51,546 - INFO - Iter: 11600; ema_loss: 0.112456
+2026-06-15 21:35:52,022 - INFO - Iter: 11700; ema_loss: 0.102505
+2026-06-15 21:35:52,504 - INFO - Iter: 11800; ema_loss: 0.109291
+2026-06-15 21:35:52,983 - INFO - Iter: 11900; ema_loss: 0.106733
+2026-06-15 21:35:53,462 - INFO - Iter: 12000; ema_loss: 0.108227
+2026-06-15 21:35:53,943 - INFO - Iter: 12100; ema_loss: 0.106039
+2026-06-15 21:35:54,426 - INFO - Iter: 12200; ema_loss: 0.111420
+2026-06-15 21:35:54,907 - INFO - Iter: 12300; ema_loss: 0.115192
+2026-06-15 21:35:55,391 - INFO - Iter: 12400; ema_loss: 0.111388
+2026-06-15 21:35:55,842 - INFO - Iter: 12500; ema_loss: 0.109996
+2026-06-15 21:35:56,325 - INFO - Iter: 12600; ema_loss: 0.108348
+2026-06-15 21:35:56,805 - INFO - Iter: 12700; ema_loss: 0.116651
+2026-06-15 21:35:57,285 - INFO - Iter: 12800; ema_loss: 0.102975
+2026-06-15 21:35:57,765 - INFO - Iter: 12900; ema_loss: 0.102837
+2026-06-15 21:35:58,246 - INFO - Iter: 13000; ema_loss: 0.102091
+2026-06-15 21:35:58,728 - INFO - Iter: 13100; ema_loss: 0.104790
+2026-06-15 21:35:59,207 - INFO - Iter: 13200; ema_loss: 0.108042
+2026-06-15 21:35:59,688 - INFO - Iter: 13300; ema_loss: 0.105662
+2026-06-15 21:36:00,169 - INFO - Iter: 13400; ema_loss: 0.109794
+2026-06-15 21:36:00,656 - INFO - Iter: 13500; ema_loss: 0.110558
+2026-06-15 21:36:01,136 - INFO - Iter: 13600; ema_loss: 0.111526
+2026-06-15 21:36:01,618 - INFO - Iter: 13700; ema_loss: 0.108648
+2026-06-15 21:36:02,100 - INFO - Iter: 13800; ema_loss: 0.109858
+2026-06-15 21:36:02,582 - INFO - Iter: 13900; ema_loss: 0.108003
+2026-06-15 21:36:03,067 - INFO - Iter: 14000; ema_loss: 0.105232
+2026-06-15 21:36:03,550 - INFO - Iter: 14100; ema_loss: 0.114613
+2026-06-15 21:36:04,034 - INFO - Iter: 14200; ema_loss: 0.106437
+2026-06-15 21:36:04,518 - INFO - Iter: 14300; ema_loss: 0.112422
+2026-06-15 21:36:05,003 - INFO - Iter: 14400; ema_loss: 0.119432
+2026-06-15 21:36:05,492 - INFO - Iter: 14500; ema_loss: 0.112360
+2026-06-15 21:36:05,971 - INFO - Iter: 14600; ema_loss: 0.103271
+2026-06-15 21:36:06,455 - INFO - Iter: 14700; ema_loss: 0.100004
+2026-06-15 21:36:06,835 - INFO - Iter: 14800; ema_loss: 0.099892
+2026-06-15 21:36:07,245 - INFO - Iter: 14900; ema_loss: 0.105628
+2026-06-15 21:36:07,660 - INFO - Iter: 15000; ema_loss: 0.102035
+2026-06-15 21:36:09,141 - INFO - 1-chain val AUC: 0.979634 val perc 98.160175; iteration: 15000
+2026-06-15 21:36:09,975 - INFO - 2-inter val AUC: 0.743506 val perc 73.229508; iteration: 15000
+2026-06-15 21:36:10,830 - INFO - Hard-2-inter val AUC: 0.486139 val perc 47.521650; iteration: 15000
+2026-06-15 21:36:11,482 - INFO - 2-chain val AUC: 0.923503 val perc 92.590909; iteration: 15000
+2026-06-15 21:36:12,531 - INFO - 3-chain val AUC: 0.869685 val perc 85.871287; iteration: 15000
+2026-06-15 21:36:13,801 - INFO - 3-chain_inter val AUC: 0.603785 val perc 57.979798; iteration: 15000
+2026-06-15 21:36:15,067 - INFO - Hard-3-chain_inter val AUC: 0.554953 val perc 53.544040; iteration: 15000
+2026-06-15 21:36:16,330 - INFO - 3-inter_chain val AUC: 0.693991 val perc 70.521277; iteration: 15000
+2026-06-15 21:36:17,602 - INFO - Hard-3-inter_chain val AUC: 0.519202 val perc 51.112194; iteration: 15000
+2026-06-15 21:36:18,980 - INFO - 3-inter val AUC: 0.727482 val perc 75.242105; iteration: 15000
+2026-06-15 21:36:20,358 - INFO - Hard-3-inter val AUC: 0.462759 val perc 50.130414; iteration: 15000
+2026-06-15 21:36:20,845 - INFO - Iter: 15100; ema_loss: 0.100432
+2026-06-15 21:36:21,332 - INFO - Iter: 15200; ema_loss: 0.102924
+2026-06-15 21:36:21,818 - INFO - Iter: 15300; ema_loss: 0.109186
+2026-06-15 21:36:22,302 - INFO - Iter: 15400; ema_loss: 0.103328
+2026-06-15 21:36:22,792 - INFO - Iter: 15500; ema_loss: 0.106187
+2026-06-15 21:36:23,285 - INFO - Iter: 15600; ema_loss: 0.109069
+2026-06-15 21:36:23,735 - INFO - Iter: 15700; ema_loss: 0.111225
+2026-06-15 21:36:24,213 - INFO - Iter: 15800; ema_loss: 0.106796
+2026-06-15 21:36:24,688 - INFO - Iter: 15900; ema_loss: 0.105209
+2026-06-15 21:36:25,153 - INFO - Iter: 16000; ema_loss: 0.101449
+2026-06-15 21:36:25,622 - INFO - Iter: 16100; ema_loss: 0.096057
+2026-06-15 21:36:26,152 - INFO - Iter: 16200; ema_loss: 0.107208
+2026-06-15 21:36:26,655 - INFO - Iter: 16300; ema_loss: 0.104922
+2026-06-15 21:36:27,174 - INFO - Iter: 16400; ema_loss: 0.108955
+2026-06-15 21:36:27,677 - INFO - Iter: 16500; ema_loss: 0.104930
+2026-06-15 21:36:28,194 - INFO - Iter: 16600; ema_loss: 0.109909
+2026-06-15 21:36:28,689 - INFO - Iter: 16700; ema_loss: 0.103994
+2026-06-15 21:36:29,197 - INFO - Iter: 16800; ema_loss: 0.108554
+2026-06-15 21:36:29,676 - INFO - Iter: 16900; ema_loss: 0.103976
+2026-06-15 21:36:30,159 - INFO - Iter: 17000; ema_loss: 0.098151
+2026-06-15 21:36:30,641 - INFO - Iter: 17100; ema_loss: 0.104357
+2026-06-15 21:36:31,117 - INFO - Iter: 17200; ema_loss: 0.109067
+2026-06-15 21:36:31,611 - INFO - Iter: 17300; ema_loss: 0.108942
+2026-06-15 21:36:32,104 - INFO - Iter: 17400; ema_loss: 0.105014
+2026-06-15 21:36:32,597 - INFO - Iter: 17500; ema_loss: 0.110476
+2026-06-15 21:36:33,092 - INFO - Iter: 17600; ema_loss: 0.108441
+2026-06-15 21:36:33,595 - INFO - Iter: 17700; ema_loss: 0.111406
+2026-06-15 21:36:34,082 - INFO - Iter: 17800; ema_loss: 0.119323
+2026-06-15 21:36:34,563 - INFO - Iter: 17900; ema_loss: 0.113640
+2026-06-15 21:36:35,041 - INFO - Iter: 18000; ema_loss: 0.102563
+2026-06-15 21:36:35,521 - INFO - Iter: 18100; ema_loss: 0.112012
+2026-06-15 21:36:36,001 - INFO - Iter: 18200; ema_loss: 0.118132
+2026-06-15 21:36:36,480 - INFO - Iter: 18300; ema_loss: 0.116319
+2026-06-15 21:36:36,960 - INFO - Iter: 18400; ema_loss: 0.109331
+2026-06-15 21:36:37,460 - INFO - Iter: 18500; ema_loss: 0.109242
+2026-06-15 21:36:37,964 - INFO - Iter: 18600; ema_loss: 0.103714
+2026-06-15 21:36:38,464 - INFO - Iter: 18700; ema_loss: 0.105396
+2026-06-15 21:36:38,990 - INFO - Iter: 18800; ema_loss: 0.108599
+2026-06-15 21:36:39,485 - INFO - Iter: 18900; ema_loss: 0.113549
+2026-06-15 21:36:39,970 - INFO - Iter: 19000; ema_loss: 0.119321
+2026-06-15 21:36:40,462 - INFO - Iter: 19100; ema_loss: 0.115255
+2026-06-15 21:36:40,939 - INFO - Iter: 19200; ema_loss: 0.108476
+2026-06-15 21:36:41,426 - INFO - Iter: 19300; ema_loss: 0.105299
+2026-06-15 21:36:41,928 - INFO - Iter: 19400; ema_loss: 0.106175
+2026-06-15 21:36:42,426 - INFO - Iter: 19500; ema_loss: 0.102726
+2026-06-15 21:36:42,903 - INFO - Iter: 19600; ema_loss: 0.103533
+2026-06-15 21:36:43,315 - INFO - Iter: 19700; ema_loss: 0.111390
+2026-06-15 21:36:43,778 - INFO - Iter: 19800; ema_loss: 0.109099
+2026-06-15 21:36:44,257 - INFO - Iter: 19900; ema_loss: 0.114586
+2026-06-15 21:36:44,801 - INFO - Iter: 20000; ema_loss: 0.102625
+2026-06-15 21:36:46,345 - INFO - 1-chain val AUC: 0.979412 val perc 98.130842; iteration: 20000
+2026-06-15 21:36:47,181 - INFO - 2-inter val AUC: 0.738460 val perc 72.385246; iteration: 20000
+2026-06-15 21:36:48,007 - INFO - Hard-2-inter val AUC: 0.483813 val perc 47.135863; iteration: 20000
+2026-06-15 21:36:48,660 - INFO - 2-chain val AUC: 0.932997 val perc 91.420455; iteration: 20000
+2026-06-15 21:36:49,716 - INFO - 3-chain val AUC: 0.875818 val perc 88.564356; iteration: 20000
+2026-06-15 21:36:50,980 - INFO - 3-chain_inter val AUC: 0.600332 val perc 59.979798; iteration: 20000
+2026-06-15 21:36:52,223 - INFO - Hard-3-chain_inter val AUC: 0.552522 val perc 56.143943; iteration: 20000
+2026-06-15 21:36:53,473 - INFO - 3-inter_chain val AUC: 0.698414 val perc 70.234043; iteration: 20000
+2026-06-15 21:36:54,725 - INFO - Hard-3-inter_chain val AUC: 0.513679 val perc 52.333135; iteration: 20000
+2026-06-15 21:36:56,108 - INFO - 3-inter val AUC: 0.727508 val perc 74.515789; iteration: 20000
+2026-06-15 21:36:57,477 - INFO - Hard-3-inter val AUC: 0.464184 val perc 48.737125; iteration: 20000
+2026-06-15 21:36:57,481 - INFO - Edge converged at iteration 20000
+2026-06-15 21:36:57,481 - INFO - Testing at edge conv...
+2026-06-15 21:37:09,678 - INFO - 1-chain val AUC: 0.979473 val perc 98.116310; iteration: 20001
+2026-06-15 21:37:11,851 - INFO - 2-inter val AUC: 0.720093 val perc 70.518408; iteration: 20001
+2026-06-15 21:37:14,000 - INFO - Hard-2-inter val AUC: 0.481410 val perc 46.564712; iteration: 20001
+2026-06-15 21:37:15,714 - INFO - 2-chain val AUC: 0.941904 val perc 93.803279; iteration: 20001
+2026-06-15 21:37:23,537 - INFO - 3-chain val AUC: 0.883931 val perc 86.948692; iteration: 20001
+2026-06-15 21:37:34,707 - INFO - 3-chain_inter val AUC: 0.597986 val perc 62.393459; iteration: 20001
+2026-06-15 21:37:48,547 - INFO - Hard-3-chain_inter val AUC: 0.553078 val perc 61.227361; iteration: 20001
+2026-06-15 21:37:56,787 - INFO - 3-inter_chain val AUC: 0.702923 val perc 70.829319; iteration: 20001
+2026-06-15 21:38:08,265 - INFO - Hard-3-inter_chain val AUC: 0.513493 val perc 53.251866; iteration: 20001
+2026-06-15 21:38:20,324 - INFO - 3-inter val AUC: 0.725016 val perc 71.809572; iteration: 20001
+2026-06-15 21:38:29,621 - INFO - Hard-3-inter val AUC: 0.471693 val perc 45.304064; iteration: 20001
+2026-06-15 21:38:41,841 - INFO - 1-chain val AUC: 0.979473 val perc 98.116310; iteration: 20001
+2026-06-15 21:38:44,046 - INFO - 2-inter val AUC: 0.720093 val perc 70.518408; iteration: 20001
+2026-06-15 21:38:46,210 - INFO - Hard-2-inter val AUC: 0.481410 val perc 46.564712; iteration: 20001
+2026-06-15 21:38:47,954 - INFO - 2-chain val AUC: 0.941904 val perc 93.803279; iteration: 20001
+2026-06-15 21:38:54,729 - INFO - 3-chain val AUC: 0.883931 val perc 86.948692; iteration: 20001
+2026-06-15 21:39:03,656 - INFO - 3-chain_inter val AUC: 0.597986 val perc 62.393459; iteration: 20001
+2026-06-15 21:39:12,526 - INFO - Hard-3-chain_inter val AUC: 0.553078 val perc 61.227361; iteration: 20001
+2026-06-15 21:39:20,748 - INFO - 3-inter_chain val AUC: 0.702923 val perc 70.829319; iteration: 20001
+2026-06-15 21:39:28,918 - INFO - Hard-3-inter_chain val AUC: 0.513493 val perc 53.251866; iteration: 20001
+2026-06-15 21:39:40,314 - INFO - 3-inter val AUC: 0.725016 val perc 71.809572; iteration: 20001
+2026-06-15 21:39:49,582 - INFO - Hard-3-inter val AUC: 0.471693 val perc 45.304064; iteration: 20001
+2026-06-15 21:39:49,583 - INFO - Test macro-averaged val: 0.688273
+2026-06-15 21:39:49,583 - INFO - Improvement from edge conv: 0.000000

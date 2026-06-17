@@ -1,0 +1,24 @@
+2026-06-16 09:34:59,739 - INFO - testing original model...
+2026-06-16 09:35:20,359 - INFO - 1-chain val AUC: 0.977417 val perc 97.957442; iteration: 0
+2026-06-16 09:35:22,696 - INFO - 2-inter val AUC: 0.708051 val perc 70.023881; iteration: 0
+2026-06-16 09:35:24,875 - INFO - Hard-2-inter val AUC: 0.487405 val perc 46.994517; iteration: 0
+2026-06-16 09:35:26,568 - INFO - 2-chain val AUC: 0.918607 val perc 91.217213; iteration: 0
+2026-06-16 09:35:32,567 - INFO - 3-chain val AUC: 0.851974 val perc 86.462274; iteration: 0
+2026-06-16 09:35:40,581 - INFO - 3-chain_inter val AUC: 0.528750 val perc 57.022795; iteration: 0
+2026-06-16 09:35:48,528 - INFO - Hard-3-chain_inter val AUC: 0.562700 val perc 63.873015; iteration: 0
+2026-06-16 09:35:55,996 - INFO - 3-inter_chain val AUC: 0.676770 val perc 66.372775; iteration: 0
+2026-06-16 09:36:03,390 - INFO - Hard-3-inter_chain val AUC: 0.512693 val perc 52.697983; iteration: 0
+2026-06-16 09:36:11,758 - INFO - 3-inter val AUC: 0.705358 val perc 71.015275; iteration: 0
+2026-06-16 09:36:20,061 - INFO - Hard-3-inter val AUC: 0.477680 val perc 48.072172; iteration: 0
+2026-06-16 09:36:20,062 - INFO - testing hashed model...
+2026-06-16 09:36:44,787 - INFO - 1-chain val AUC: 0.973332 val perc 97.765673; iteration: 0
+2026-06-16 09:36:47,251 - INFO - 2-inter val AUC: 0.691470 val perc 69.017413; iteration: 0
+2026-06-16 09:36:49,654 - INFO - Hard-2-inter val AUC: 0.490556 val perc 48.118625; iteration: 0
+2026-06-16 09:36:51,412 - INFO - 2-chain val AUC: 0.911321 val perc 90.421107; iteration: 0
+2026-06-16 09:36:57,609 - INFO - 3-chain val AUC: 0.848560 val perc 86.033199; iteration: 0
+2026-06-16 09:37:05,822 - INFO - 3-chain_inter val AUC: 0.529289 val perc 56.697721; iteration: 0
+2026-06-16 09:37:13,803 - INFO - Hard-3-chain_inter val AUC: 0.562601 val perc 64.045063; iteration: 0
+2026-06-16 09:37:21,561 - INFO - 3-inter_chain val AUC: 0.656858 val perc 65.829319; iteration: 0
+2026-06-16 09:37:29,306 - INFO - Hard-3-inter_chain val AUC: 0.513370 val perc 53.146011; iteration: 0
+2026-06-16 09:37:37,906 - INFO - 3-inter val AUC: 0.687197 val perc 69.798880; iteration: 0
+2026-06-16 09:37:46,560 - INFO - Hard-3-inter val AUC: 0.480931 val perc 49.876578; iteration: 0
