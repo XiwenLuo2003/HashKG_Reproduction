@@ -88,7 +88,10 @@ def run_train(model, optimizer, train_queries, val_queries, test_queries, logger
             if edge_conv:
                 vals.append(np.mean(list(v.values())))
             else:
-                vals.append(v["1-chain"])
+                if "1-chain" in v:
+                    vals.append(v["1-chain"])
+                else:
+                    vals.append(np.mean(list(v.values())))
     
     v = run_eval(model, test_queries, i, logger)
     logger.info("Test macro-averaged val: {:f}".format(np.mean(list(v.values()))))
