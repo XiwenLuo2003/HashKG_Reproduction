@@ -75,8 +75,8 @@ class WHEEncoder(BaseHashEncoder):
         if len(embeds.size()) > 2:
             embeds = embeds.view(embeds.size(0), -1)
         
-        # 5. Apply smooth continuation method
-        ret = torch.tanh(self.beta * embeds)
+        # 5. Apply smooth continuation method; transpose to [embed_dim, batch] like DirectEncoder
+        ret = torch.tanh(self.beta * embeds).t()
         
         if sign:
             return self.tohash(ret)
@@ -137,7 +137,7 @@ class RHEEncoder(BaseHashEncoder):
         if len(embeds.size()) > 2:
             embeds = embeds.view(embeds.size(0), -1)
             
-        ret = torch.tanh(self.beta * embeds)
+        ret = torch.tanh(self.beta * embeds).t()
         
         if sign:
             return self.tohash(ret)

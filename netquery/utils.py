@@ -67,27 +67,39 @@ def eval_auc_queries(test_queries, enc_dec, batch_size=1000, hard_negatives=Fals
     return overall_auc, formula_aucs
 
     
-def eval_perc_queries(test_queries, enc_dec, batch_size=1000, hard_negatives=False):
+def eval_perc_queries(test_queries, enc_dec, batch_size=1000, hard_negatives=False, max_forward_size=2048):
     perc_scores = []
     for formula in test_queries:
         formula_queries = test_queries[formula]
-        offset = 0
-        while offset < len(formula_queries):
-            max_index = min(offset+batch_size, len(formula_queries))
-            batch_queries = formula_queries[offset:max_index]
-            if hard_negatives:
-                lengths = [len(formula_queries[j].hard_neg_samples) for j in range(offset, max_index)]
-                negatives = [n for j in range(offset, max_index) for n in formula_queries[j].hard_neg_samples]
-            else:
-                lengths = [len(formula_queries[j].neg_samples) for j in range(offset, max_index)]
-                negatives = [n for j in range(offset, max_index) for n in formula_queries[j].neg_samples]
-            offset += batch_size
+        i = 0
+        while i < len(formula_queries):
+            batch_indices = []
+            forward_size = 0
+            while i < len(formula_queries) and len(batch_indices) < batch_size:
+                q = formula_queries[i]
+                neg_len = len(q.hard_neg_samples if hard_negatives else q.neg_samples)
+                q_forward = 1 + neg_len
+                if batch_indices and forward_size + q_forward > max_forward_size:
+                    break
+                batch_indices.append(i)
+                forward_size += q_forward
+                i += 1
 
-            batch_scores = enc_dec.forward(formula, 
-                    batch_queries+[b for i, b in enumerate(batch_queries) for _ in range(lengths[i])], 
+            batch_queries = [formula_queries[j] for j in batch_indices]
+            if hard_negatives:
+                lengths = [len(formula_queries[j].hard_neg_samples) for j in batch_indices]
+                negatives = [n for j in batch_indices for n in formula_queries[j].hard_neg_samples]
+            else:
+                lengths = [len(formula_queries[j].neg_samples) for j in batch_indices]
+                negatives = [n for j in batch_indices for n in formula_queries[j].neg_samples]
+
+            batch_scores = enc_dec.forward(formula,
+                    batch_queries+[b for k, b in enumerate(batch_queries) for _ in range(lengths[k])],
                     [q.target_node for q in batch_queries] + negatives)
             batch_scores = batch_scores.data.tolist()
             perc_scores.extend(_get_perc_scores(batch_scores, lengths))
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
     return np.mean(perc_scores)
 
 def get_encoder(depth, graph, out_dims, feature_modules, cuda, beta=0.1): 

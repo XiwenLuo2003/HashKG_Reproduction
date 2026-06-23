@@ -23,6 +23,8 @@ parser.add_argument("--model_dir", type=str, default="./model")
 parser.add_argument("--decoder", type=str, default="bilinear")
 parser.add_argument("--inter_decoder", type=str, default="mean")
 parser.add_argument("--type_encoder", type=str, default="whe", choices=["whe", "rhe", "direct"])
+parser.add_argument("--max_forward_size", type=int, default=2048,
+                    help="Max nodes per forward pass during percentile eval (lower if OOM)")
 
 args = parser.parse_args()
 
@@ -87,7 +89,7 @@ log_file = args.log_dir + f"/{args.type_encoder}_test_result.log"
 logger = setup_logging(log_file)
 
 logger.info(f"Testing original continuous model with {args.type_encoder.upper()}...")
-run_eval(enc_dec, test_queries, 0, logger)
+run_eval(enc_dec, test_queries, 0, logger, max_forward_size=args.max_forward_size)
 
 logger.info(f"Testing HASHED model with {args.type_encoder.upper()}...")
-run_eval(hashed_enc_dec, test_queries, 0, logger)
+run_eval(hashed_enc_dec, test_queries, 0, logger, max_forward_size=args.max_forward_size)

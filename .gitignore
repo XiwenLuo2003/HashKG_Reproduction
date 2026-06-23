@@ -5,3 +5,6 @@ db15k_data/
 *.pth
 *.pt
 __pycache__/
+netquery/fb/log/
+netquery/fb/model/
+.ipynb_checkpoints/
